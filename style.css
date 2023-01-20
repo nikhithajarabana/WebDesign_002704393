@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+
+
+}
+header{
+    position: relative;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+
+
+}
+header .logo
+{
+ position: relative; 
+ color: #222;  
+ text-decoration: none;
+ font-size: 2em;
+ font-weight: 700;
+}
+.group
+{
+ position: relative;
+ display: flex; 
+
+
+}
+.group.navigation,
+.group.action
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.group ul li
+{
+    list-style: none ;
+
+
+}
+.group ul li a 
+{
+    color: #222;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+.group ul li a:hover
+{
+    color:rgb(34, 114, 34)
+}
+.group.action
+{
+    margin-left: 20px;
+}
+.group.action li a
+{
+    font-size: 1.25em;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    padding: 0 100px;
+}
+.banner .bg
+{
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background: #555;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.cover
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+
+}
+.content
+{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content h2
+{
+   position: relative;
+   color: #fff;
+   font-size: 6em;
+
+}
+.btn
+{
+    display: inline-block;
+    background: rgb(14, 14, 14);
+    color: rgb(244, 240, 240);
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 0.5em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: relative;
+    
+
+  }
+  
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+  }
+
+thead th {
+  width: 25%;
+  font-weight: bold;
+}
+.form {
+    text-align: center;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    justify-content:left;
+}
+h5{
+    font-size: 2em;
+    
+}
+.icon
+{
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    color: #222;
+}
+.center {
+   display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+
+
+
