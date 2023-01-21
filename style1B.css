@@ -1,0 +1,113 @@
+html {
+    font-size: 62.5%;
+}
+
+.logo-container {
+    color:#fff;
+    padding-top: 0.5rem;
+}
+
+nav {
+    background: rgb(46, 6, 6);
+    padding: 0.7rem;
+}
+ 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    text-align: center;
+}
+  
+nav li {
+    margin: 0 1rem;
+}
+  
+nav a {
+    color: #ccc;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #fff;
+}
+
+body {
+    position: relative;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    color: #222;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 0rem;
+}
+
+video {
+    width: 100%;
+}
+
+.footer-container {
+position: absolute; 
+bottom: 0;  
+width: 100%; 
+background-color: rgb(46, 6, 6);
+color: white;
+padding: 1rem;
+}
+
+li {
+    display: inline;
+    margin: 50px;
+}
+.caption {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ul {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .audio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+     display: inline-block;
+    background: rgb(46, 6, 6);
+    color: rgb(244, 240, 240);
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 0.5em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  .form {
+    text-align: center;
+    justify-content: baseline;
+  }
+  .head {
+    text-align: center;
+  }
+  .link {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  
