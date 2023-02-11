@@ -309,7 +309,7 @@ function getTableContents() {
         document.getElementById('drinks').value = '';
         document.getElementById('myform').reset();
         document.getElementById("selectionbody").style.visibility = "hidden";
-        
+        //end
 
         
 
