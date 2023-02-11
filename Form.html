@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Feedback</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <style>
+    label {	float: left;
+			width: 150px;}
+      #container{
+          width: 1100px;
+          margin: auto;
+          background-color: beige;
+      } 
+      main{
+          padding: 50px;
+      }
+  </style>
+ </head>
+ <body>
+	<script src="javascript.js"></script>
+ <div id="container">
+	 
+	 <main>
+	 <h2>Feeback</h2>
+	 <h3>Love something? Hate something? Let us know!</h3>
+		 Note : Fields marked with an asterisk(*) are mandatory
+		 <br><br>
+		 <form id="myform" method="post" novalidate>
+			<label>Title*:</label>
+			<input type="radio" name="title" id="miss" value="miss" required="required"/>Miss
+			<input type="radio" name="title" id="mr" value="mr" required="required"/>Mr.
+			<input type="radio" name="title" id="mrs" value="mrs" required="required"/>Mrs.
+			<br><br>
+			<label for="firstName">First Name*:</label>
+			<input type="text" name="firstName" required="required" id="firstName" placeholder="First Name" onblur="validinput(this,1,'FName')"/>	
+			<br><br>
+			<div id="errorMsgFName" style="display:none;color:red">
+				Invalid First Name. Please enter alphabets only.
+			</div>			
+			
+
+			<label for="lastName">Last Name*:</label>
+			<input type="text" name="lastName" id="lastName" required="required" placeholder="Last Name" onblur="validinput(this,1,'LName')"/>
+			<br><br>
+			<div id="errorMsgLName" style="display:none;color:red">
+				Invalid Last Name. Please enter alphabets only.
+			</div>	
+			
+
+			<label for="emailId">Email Id*:</label>
+			<input type="text" name="emailId" id="emailId" required="required" placeholder="name@northeastern.edu" onblur="validinput(this,3)"/>
+			<br><br>
+			<div id="errorMsgEmail" style="display:none;color:red">
+				Invalid Email. Please enter correct mail.
+			</div>
+				
+			
+
+			<label for="phoneNumber">Phone Number*:</label>
+			<input type="text" name="phoneNumber" id="phoneNumber" required="required" placeholder="xxx-xxx-xxxx" onblur="validinput(this,4)"/>
+			<br><br>
+			<div id="errorMsgPhone" style="display:none;color:red">
+				Invalid Phone Number. Please enter in correct format.
+			</div>
+
+			<label for="streetAddress1">Street Address 1*:</label>
+			<input type="text" name="streetAddress1" id="streetAddress1" required="required" placeholder="address"  />
+			<br><br>
+
+			<label for="streetAddress2">Street Address 2:</label>
+			<input type="text" name="streetAddress2" id="streetAddress2" placeholder="address" />
+			<br><br>
+
+
+			<label for="city">City*:</label>
+			<input type="text" name="city" required="required" id="city" placeholder="city" onblur="validinput(this,7,'city')" />
+			<br><br>
+			<div id="errorMsgCity" style="display:none;color:red">
+				Invalid City.
+			</div>
+
+			<label for="state">State*:</label>
+			<input type="text" name="state" required="required" id="state" placeholder="state" onblur="validinput(this,6,'state')" />
+			<br><br>
+			<div id="errorMsgState" style="display:none;color:red">
+				Invalid State.
+			</div>
+			
+            <label for="zipcode">ZipCode*:</label>
+			<input type="text" name="zipcode" id="zipcode" required="required" placeholder="xxxxxx" onblur="validinput(this,5)"/>
+			<br><br>
+			<div id="errorMsgZip" style="display:none;color:red">
+				Invalid ZipCode.
+			</div>	
+             
+            <label for="source">How did you hear*:</label>
+			<input type='checkbox' name="source" value="facebook" /> Facebook
+            <input type='checkbox' name="source" value="google" /> Google
+            <input type='checkbox' name="source" value="yelp" /> Yelp 
+			<br><br> 
+             
+			<label for="comments">Comments*:</label>
+			<textarea name="text" required="required" id="comments" placeholder="Your comments" rows="5" cols="25"></textarea>
+			<br><br>
+			<label for="drinks">Drinks*:</label>
+			<select name="drinks" id="drinks" onchange="showText()">
+				<option value="default" selected>Select an option</option>
+  				<option value="Hot Tea">Hot Tea</option>
+  				<option value="Coffee Latte">Coffee Latte</option>
+  				<option value="Hot Chocolate">Hot Chocolate</option>
+  				<option value="Mint Tea">Mint Tea</option>
+				<option value="None">None</option>
+			</select>
+			
+			<br><br>
+
+
+			<div id="selectionbody">
+			<label for="source1" id="source1" class="selection"> With Milk(25c extra)</label>
+			<input type="checkbox" id="source11" name="source100" value="With Milk(25c extra)"  class="selection" onchange="displayDetails(this, id)"><br>			
+
+			<label for="source2" id="source2" class="selection"> With Cream(50c extra)</label>
+  			<input type="checkbox" class="selection" id="source22" name="source100" value="With Cream(50c extra)" onchange="displayDetails(this, id)"> <br>
+
+			<label for="source3" id="source3" class="selection"> Whipped Cream</label>  
+  			<input type="checkbox" class="selection" id="source33" name="source100" value="Whipped Cream" onchange="displayDetails(this, id)"><br>
+			
+			<label for="source4" id="source4"class="selection"> With Honey</label>  
+  			<input type="checkbox" class="selection" id="source44" name="source100" value="With Honey" onchange="displayDetails(this, id)"><br>
+			
+			<label for="comments1" id="comments11" class="selection">Special Instructions</label>
+			<textarea name="text1"  class ="selection" id="comments1" placeholder="You can enter special instructions here" rows="5" cols="25"></textarea>
+			<br><br>
+			</div>
+			<input type="button" name="Submit" value="Submit" onclick="getTableContents()">
+			<input type="Reset" onclick = "resetfunc()">
+			
+			<br><br>
+		 </form>
+
+	 </main>
+	 <div class="container">
+		<table id="userTable">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th> Name</th>
+					<th>Email ID</th>
+					<th>Phone Number</th>
+					<th>Street Address1</th>
+					<th>Street Address2</th>
+					<th>City</th>
+					<th>State</th>
+					<th>ZipCode</th>
+					<th>Source </th>
+					<th>Comments</th>
+					<th>Drinks</th>
+					<th>Add Ons</th>
+					<th>Instructions</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+			
+		</table>
+	</div>
+ </div>
+
+ <script>
+ 
+ </script>
+
+ </body>
+</html>
