@@ -186,7 +186,7 @@ function validinput(object, type, nameType) {
                 document.getElementById("errorMsgCity").style.display = "none";
      
              }
-             break;
+             
             
         
     }
