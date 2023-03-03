@@ -1,4 +1,4 @@
-# WebDesign_002704393
+# WebDesign_002704393 Assignment 6 Part A
 Assignment 6 Part A 
 Login Page 
 Contains all the required validations for username, email id and password.
