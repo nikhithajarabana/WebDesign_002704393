@@ -1,0 +1,12 @@
+#form-box {
+    margin: auto;
+    margin-top: 100px;
+    width: 30%;
+    background-color: rgb(206, 131, 238);
+    padding: 70px;
+}
+
+
+label {
+    font-weight: bolder;
+}
