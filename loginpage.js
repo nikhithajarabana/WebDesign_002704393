@@ -14,12 +14,12 @@ $(document).ready(function () {
             return false;
         } else if (usernameValue.length < 6 || usernameValue.length > 12) {
             $("#usercheck").show();
-            $("#usercheck").html("**Username must contain more than 6 characters and less than 12 characters");
+            $("#usercheck").html("*Username must contain more than 6 characters and less than 12 characters*");
             usernameError = false;
             return false;
         } else if (!regex.test(usernameValue)) {
             $("#usercheck").show();
-            $("#usercheck").html("**Special Characters are not allowed in username");
+            $("#usercheck").html("*Special Characters are not allowed in username*");
             usernameError = false;
             return false;
         } else {
@@ -42,12 +42,12 @@ $(document).ready(function () {
             return false;
         } else if (!regex2.test(emailValue)) {
             $("#emailcheck").show();
-            $("#emailcheck").html("**Please provide your Northeastern Email Id.");
+            $("#emailcheck").html("*Please provide your Northeastern Email Id.*");
             usernameError = false;
             return false;
         } else if (emailValue.length < 20) {
             $("#emailcheck").show();
-            $("#emailcheck").html("**Please enter a minimum of 3 characters before '@'");
+            $("#emailcheck").html("*Please enter a minimum of 3 characters before '@'*");
             emailError = false;
             return false;
         } else {
@@ -74,24 +74,24 @@ $(document).ready(function () {
         else if (passwordValue.length < 8) {
             $("#passcheck").show();
             $("#passcheck").html(
-                "**Your password must contain atleast 8 characters"
+                "*Your password must contain atleast 8 characters*"
             );
             $("#passcheck").css("color", "black");
             passwordError = false;
             return false;
         } else if (!regex3.test(passwordValue)) {
             $("#passcheck").show();
-            $("#passcheck").html("**password must contain at least 1 alphabet in lowercase ");
+            $("#passcheck").html("*password must contain at least 1 alphabet in lowercase* ");
             passwordError = false;
             return false;
         } else if (!regex4.test(passwordValue)) {
             $("#passcheck").show();
-            $("#passcheck").html("**password must contain at least 1 alphabet in uppercase ");
+            $("#passcheck").html("*password must contain at least 1 alphabet in uppercase*");
             passwordError = false;
             return false;
         } else if (!regex5.test(passwordValue)) {
             $("#passcheck").show();
-            $("#passcheck").html("**password must contain at least 1 numeric character");
+            $("#passcheck").html("*password must contain at least 1 numeric character*");
             passwordError = false;
             return false;
         } else {
