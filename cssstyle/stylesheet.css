@@ -103,7 +103,7 @@
     justify-content: center;
   }
   .showcase img {
-    width: 40%;
+    width: 45%;
     padding: 10px;
   }
   .showcase h1 {
@@ -124,7 +124,7 @@
     padding: 20px;
   }
   .pro img {
-    width: 64px;
+    width: 100px;
     height: auto;
   }
   .fav-grid {
