@@ -13,7 +13,7 @@ $font-stack :Arial, Helvetica, sans-serif;
     }
 }
 
-//use mixin to set the background and text color
+
 
 @mixin set-background($color) {
     background-color: $color;
