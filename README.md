@@ -1,4 +1,4 @@
-# WebDesign_002704393
+# WebDesign_002704393 Assignment7
 For products displayed on the home page, i have included a responsive Grid Layout. 
 
 Flex-wrap styling has been utilized in conjunction with the flex box feature on the haircare page. 
