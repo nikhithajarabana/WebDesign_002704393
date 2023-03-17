@@ -114,16 +114,16 @@
     margin: 20px 0;
   }
   
-  .fav {
+  .pro {
     max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
   }
-  .fav h2 {
+  .pro h2 {
     text-align: center;
     padding: 20px;
   }
-  .fav img {
+  .pro img {
     width: 64px;
     height: auto;
   }
@@ -139,23 +139,23 @@
     justify-content: center;
   }
   
-  .emo {
+  .hpro {
     max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
   }
-  .emo h2 {
+  .hpro h2 {
     text-align: center;
     padding: 20px;
   }
-  .emo img {
+  .hpro img {
     width: 200px;
     height: auto;
     padding: 30px;
   }
-  .emo-flex {
+  .hpro-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     place-items: center;
-  }/*# sourceMappingURL=style.css.map */
+  }

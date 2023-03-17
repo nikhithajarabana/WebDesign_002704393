@@ -1,11 +1,11 @@
 # WebDesign_002704393
-For products displayed on the home page, this assignment includes a responsive Grid Layout. 
+For products displayed on the home page, i have included a responsive Grid Layout. 
 
 Flex-wrap styling has been utilized in conjunction with the flex box feature on the haircare page. 
 
 Variables were employed to specify the website's primary and secondary colors. 
 
-Child HTML elements are styled inside parent HTML elements using nesting, which has been used in the main CSS. 
+Child HTML elements are styled inside parent HTML elements using nesting, which has been used in the main CSS stylesheet. 
 
 The set-background($color) command in the _config.scss file uses the @mixin syntax. 
 
