@@ -5,3 +5,6 @@ React Router has been utilized to generate a navigation bar and redirect to thes
 React cards have also been utilized as templates for contact page data. This can be accomplished by passing the required props. 
 Also, the login page makes an API call to Node to confirm the user credentials, and depending on whether the validation was successful or unsuccessful, the output is presented. To verify the user credentials, a new endpoint has been added to the Node server. 
 This endpoint requests data from mongoDb, compares hashes using bcrypt, and accepts an email and password.
+This assignment has been connected to the previous assignment backend server. 
+4 Pages Home, contact, jobs, about us pages have been created using react components. A Seperate card component has been added to every page.
+React map has been used in jobs page.
