@@ -1,0 +1,17 @@
+
+nav {
+  padding: 10px;
+  background-color: rgb(55, 19, 89);
+}
+
+nav a {
+  padding: 10px;
+  color: rgb(246, 236, 236);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(234, 170, 221);
+  transition-delay: 5ms;
+}

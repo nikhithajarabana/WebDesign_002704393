@@ -1,0 +1,139 @@
+.jobs-card {
+    border-style: solid;
+    border-left-color: #0c0c0c;
+    border-top-color: rgb(9, 9, 9);
+    border-bottom-color: rgb(8, 8, 8);
+    border-right-color: #0f0e0f;
+    background-color: white;
+    width: 400px;
+    box-shadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)";
+    text-align: "center"; 
+    font-family: "arial";
+    height: 400px;
+    margin: auto;
+    
+}
+.card-body{
+  padding: 20px;
+}
+.jobs-btn {
+    padding: 10px 10px;
+    height: 10px;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(to right, #a589eb, #d43aef);
+    text-decoration: none;
+    color: white;
+  }
+
+/*Home.css*/
+.card {
+    border-style: solid;
+    border-left-color: #00FFA3;
+    border-top-color: blueviolet;
+    border-bottom-color: blueviolet;
+    border-right-color: #DC1FFF;
+    background-color: white;
+    width: 50%;
+    margin-left: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)";
+    height: 400px;
+}
+.btn {
+    padding: 15px 40px;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(to right, #918af0, #a424be);
+    text-decoration: none;
+    color: white;
+  }
+
+.image{
+    height:150px;
+    width: 700px;
+}
+/* about.css*/
+.about-card {
+    border-style: solid;
+    border-left-color: #040404;
+    border-top-color: rgb(10, 10, 10);
+    border-bottom-color: rgb(9, 9, 9);
+    border-right-color: #0a0a0a;
+    background-color: white;
+    width: 50%;
+    margin-left: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)";
+    height: 400px;
+}
+.ab-img{
+    height: 200px;
+    width: 100%;
+
+}
+.ab-btn{
+    padding: 15px 40px;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(to right, #e3e0e9, #c2aee3);
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ab-card-title{
+    font-Size: "24px";
+    margin-Bottom: "10px"
+}
+.ab-card-text{
+    font-Size: "16px";
+    margin-Bottom: "20px"
+}
+
+
+/*contact.css*/
+.contact-card {
+    border-style: solid;
+    border-left-color: #8e9cf4;
+    border-top-color: blueviolet;
+    border-bottom-color: rgb(206, 176, 234);
+    border-right-color: #d595e0;
+    background-color: white;
+    width: 50%;
+    margin-left: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)";
+    height: 300px;
+}
+.phn-img{
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+.gm-img{
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+.in-img{
+    height: 50px;
+    width: 50px;
+    padding-right: 4px;
+}
+.fb-img{
+    height: 50px;
+    width: 50px;
+}
