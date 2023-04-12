@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import WeatherData from "./WeatherData";
 import TextField from "@material-ui/core/TextField";
 var moment = require("moment");
@@ -69,7 +69,7 @@ function WeatherContainer() {
         <br></br>
         <input
           type="button"
-          className="btn btn-primary mt-3"
+          className="btn btn-warning mt-3"
           value="Find"
           onClick={refreshData}
         />
